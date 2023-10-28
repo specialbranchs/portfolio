@@ -51,7 +51,7 @@ ul li {
 }
 
 .menu ul li {
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .menu ul li a {
@@ -119,7 +119,7 @@ nav {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 10px;
     letter-spacing: 2px;
 }
@@ -278,4 +278,149 @@ nav {
     text-decoration: underline;
     cursor: pointer;
 
+}
+/* React */
+
+
+#react {
+    /* margin-top: 82px; */
+    background-color: #0b1922;
+    padding-top: 51px;
+    padding-bottom: 65px;
+}
+
+.catagory {
+    text-align: center;
+}
+
+#react .catagory h2 {
+    color: #d5d5d5;
+    position: relative;
+    display: inline-block;
+}
+#react .catagory h2::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    left: -115px;
+    transform: translateY(-50%);
+}
+
+#react .catagory h2::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    right: -115px;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* Django Goes here */
+
+
+
+#django {
+    /* margin-top: 82px; */
+    background-color: #2e6a88;
+    padding-top: 51px;
+    padding-bottom: 65px;
+}
+
+.catagory {
+    text-align: center;
+}
+
+#django .catagory h2 {
+    color: #d5d5d5;
+    position: relative;
+    display: inline-block;
+}
+#django .catagory h2::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    left: -115px;
+    transform: translateY(-50%);
+}
+
+#django .catagory h2::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    top: 50%;
+    right: -115px;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* footer */
+
+
+
+/* copyright */
+
+#copyright {
+    background-color: #111;
+}
+.copyright-left p {
+    line-height:110px;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+.copyright-left p a {
+    padding: 0 15px;
+    border-left: 1px solid #252525;
+    color: #555555;
+}
+.copyright-left p span {
+   color: #959595;
+   padding-right: 10px;
+}
+.copyright-left p a:hover {
+    color: #a48d72;
+}
+
+.copyright-right p {
+    line-height:110px;
+    color: #555555;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+.copyright-right p a {
+    padding: 0 15px;
+    border-right: 1px solid #252525;
+    color: #959595;
+}
+.copyright-right p a:last-child {
+    border-right: 0;
+}
+.copyright-right p a:first-child {
+    padding-left: 0;
+}
+.copyright-right p span {
+   color: #555;
+   padding-left: 10px;
+}
+.copyright-right p a:hover {
+    color: #a48d72;
 }
