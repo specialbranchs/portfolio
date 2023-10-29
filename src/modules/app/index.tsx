@@ -4,6 +4,7 @@ import { icons } from "../../assets/images";
 import { bcs, donate, dorud, naat, pad, quran } from "../../utils/data";
 
 import ScrollAnimation from "../../utils/export";
+import ScrollToTop from "react-scroll-to-top";
 const LandingScreen = () => {
   const homeRef: any = useRef();
   const apkRef: any = useRef();
@@ -441,7 +442,7 @@ const LandingScreen = () => {
                   <a href="#">Privacy Policy</a>
                   <a href="#">FAQ</a>
                   <a href="#">Support</a>
-                  <a href="#">linkedin</a>
+                  <a target="_blank" href="www.linkedin.com/in/faridul-islam-6aa083b4">Linkedin</a>
                 </p>
               </div>
             </div>
@@ -456,6 +457,7 @@ const LandingScreen = () => {
           </div>
         </div>
       </section>
+      <ScrollToTop  smooth style={{borderRadius:'100%',boxShadow:'1px 2px 9px #241e1e'}}/>
     </div>
   );
 };

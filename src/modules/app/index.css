@@ -270,13 +270,16 @@ nav {
 
 }
 .gallery-item-des a{
-    color: #525275;
+    color: #e9e9ef;
     font-size: 14px;
+    padding: 10px 14px;
     font-family: 'Roboto', serif;
+    background-color: #1f485e;
     font-weight: 400;
     text-transform: uppercase;
-    text-decoration: underline;
     cursor: pointer;
+    border-radius: 3px;
+    border-bottom: 3px solid  rgba(16, 89, 132, 0.9);
 
 }
 /* React */
