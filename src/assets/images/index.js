@@ -25,6 +25,7 @@ import nat3 from './nat3.jpg'
 import pad1 from './pad1.jpg'
 import pad2 from './pad2.jpg'
 import pad3 from './pad3.jpg'
+import react1 from './react1.png'
 export const icons={
     user,
     android,
@@ -36,6 +37,7 @@ export const icons={
     dorud1,dorud2,dorud3,
     nat1,nat2,nat3,
     pad1,pad2,pad3
+    ,react1
 
 
 }

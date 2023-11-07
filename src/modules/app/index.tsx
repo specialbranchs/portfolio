@@ -1,17 +1,18 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import "./index.css";
 import { icons } from "../../assets/images";
 import { bcs, donate, dorud, naat, pad, quran } from "../../utils/data";
 
 import ScrollAnimation from "../../utils/export";
 import ScrollToTop from "react-scroll-to-top";
+import { ScrollTo } from "../../utils/scrollTo";
 const LandingScreen = () => {
-  const homeRef: any = useRef();
-  const apkRef: any = useRef();
-  const djangoRef: any = useRef();
-  const reactRef:any=useRef();
-  const contactRef:any=useRef()
-
+  useEffect(() => {
+    (() => {
+      console.log("first time");
+      ScrollTo();
+    })();
+  }, []);
   return (
     <div>
       <nav>
@@ -22,49 +23,27 @@ const LandingScreen = () => {
           <div className="menu">
             <ul>
               <li>
-                <a
-                  onClick={() =>
-                    homeRef.current.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
+                <a  id="#banner" className="active">
                   Home
                 </a>
               </li>
               <li>
-                <a
-                  onClick={() =>
-                    apkRef.current.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
-                  {" "}
+                <a  id="#gallery">
                   React Native
                 </a>
               </li>
               <li>
-                <a
-                  onClick={() =>
-                    reactRef.current.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
-                  {" "}
+                <a  id="#react">
                   React
                 </a>
               </li>
               <li>
-                <a
-                  onClick={() =>
-                    djangoRef.current.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
+                <a  id="#django">
                   Django & DRF
                 </a>
               </li>
               <li>
-                <a
-                  onClick={() =>
-                    contactRef.current.scrollIntoView({ behavior: "smooth" })
-                  }
-                >
+                <a id="#copyright">
                   Contact
                 </a>
               </li>
@@ -74,7 +53,7 @@ const LandingScreen = () => {
         </div>
       </nav>
 
-      <section id="banner" ref={homeRef}>
+      <section id="banner">
         <div className="container">
           <div className="row">
             <div className="banner-text">
@@ -85,8 +64,8 @@ const LandingScreen = () => {
               <h4>React ,React Native & Django with DRF Develeoper</h4>
               <p>
                 3+ Years of Experience. Proficiency area's are
-                Javascript,Typescript,Redux,rxjs,Python,Database
-                Design,Firebase,RestApi(DRF),Google Map api.
+                Javascript, Typescript, Redux, rxjs, Python, Database
+                Design, Firebase, RestApi(DRF), Google Map api.
               </p>
             </div>
             <div className="banner-text">
@@ -96,7 +75,7 @@ const LandingScreen = () => {
         </div>
       </section>
 
-      <section id="gallery" ref={apkRef}>
+      <section id="gallery">
         <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
           <div className="catagory">
             <h2>Android Applications</h2>
@@ -193,8 +172,8 @@ const LandingScreen = () => {
             </div>
             <div className="gallery-item gallery-item-center">
               <img src={icons.do2} alt="car" />
-              <h3>Prayer time Reminder.</h3>
-              <h3>Fully Offline Aceess </h3>
+              <h3>Donate time Reminder.</h3>
+              <h3>Google map service </h3>
             </div>
             <div className="gallery-item">
               <img src={icons.do3} alt="car" />
@@ -335,7 +314,7 @@ const LandingScreen = () => {
           </div>
         </ScrollAnimation>
       </section>
-      <section id="react" ref={reactRef}>
+      <section id="react">
         <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
           <div className="catagory">
             <h2>React Applications</h2>
@@ -344,44 +323,34 @@ const LandingScreen = () => {
           <div className="container">
             <div className="head">
               <a>
-                <img src={icons.android} alt="android" />
-                Quran word by word & tafsir
+               Portfolio
               </a>
             </div>
 
             <div className="gallery-item">
-              <img src={icons.quran1} alt="car" />
+              <img src={icons.react1} alt="car" />
               <h3>User Friendly Interface</h3>
-              <h3>Realtime Push notification</h3>
+              <h3>Fully Responsive</h3>
             </div>
-            <div className="gallery-item gallery-item-center">
-              <img src={icons.quran2} alt="car" />
-              <h3>Prayer time Reminder.</h3>
-              <h3>Fully Offline Aceess </h3>
-            </div>
-            <div className="gallery-item">
-              <img src={icons.quran3} alt="car" />
-              <h3>24k+ downloads</h3>
-              <h3>10k+ active users</h3>
-            </div>
+
             <div
               className="gallery-item-des"
               style={{ backgroundColor: "#f8dedd" }}
             >
-              <h3>Quran word by word & tafsir</h3>
+              <h3>Portfolio</h3>
               <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
               <a
                 href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
                 target="_blank"
               >
-                Play store Link
+                App Link
               </a>
             </div>
             <div className="clr"></div>
           </div>
         </ScrollAnimation>
       </section>
-      <section id="django" ref={djangoRef}>
+      <section id="django">
         <ScrollAnimation animateIn="flipInY" animateOut="flipOutY">
           <div className="catagory">
             <h2>Django Applications</h2>
@@ -391,7 +360,7 @@ const LandingScreen = () => {
             <div className="head">
               <a>
                 <img src={icons.android} alt="android" />
-                Quran word by word & tafsir
+                Bcsfor2day Backend
               </a>
             </div>
 
@@ -400,27 +369,18 @@ const LandingScreen = () => {
               <h3>User Friendly Interface</h3>
               <h3>Realtime Push notification</h3>
             </div>
-            <div className="gallery-item gallery-item-center">
-              <img src={icons.quran2} alt="car" />
-              <h3>Prayer time Reminder.</h3>
-              <h3>Fully Offline Aceess </h3>
-            </div>
-            <div className="gallery-item">
-              <img src={icons.quran3} alt="car" />
-              <h3>24k+ downloads</h3>
-              <h3>10k+ active users</h3>
-            </div>
+
             <div
               className="gallery-item-des"
               style={{ backgroundColor: "#f8dedd" }}
             >
-              <h3>Quran word by word & tafsir</h3>
+              <h3> Bcsfor2day Backend</h3>
               <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
               <a
                 href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
                 target="_blank"
               >
-                Play store Link
+                App Link
               </a>
             </div>
             <div className="clr"></div>
@@ -428,21 +388,26 @@ const LandingScreen = () => {
         </ScrollAnimation>
       </section>
 
-      <section id="footer">
+      {/* <section id="footer">
         <div className="container"></div>
-      </section>
+      </section> */}
 
-      <section id="copyright" ref={contactRef}>
+      <section id="copyright">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div>
               <div className="copyright-left">
                 <p>
-                  Copyright © 2020-{new Date().getFullYear()} <span>VillageCoder</span>{" "}
-                  <a href="#">Privacy Policy</a>
+                  Copyright © 2020-{new Date().getFullYear()}{" "}
+                  <span>VillageCoder</span> <a href="#">Privacy Policy</a>
                   <a href="#">FAQ</a>
                   <a href="#">Support</a>
-                  <a target="_blank" href="www.linkedin.com/in/faridul-islam-6aa083b4">Linkedin</a>
+                  <a
+                    target="_blank"
+                    href="www.linkedin.com/in/faridul-islam-6aa083b4"
+                  >
+                    Linkedin
+                  </a>
                 </p>
               </div>
             </div>
@@ -457,7 +422,10 @@ const LandingScreen = () => {
           </div>
         </div>
       </section>
-      <ScrollToTop  smooth style={{borderRadius:'100%',boxShadow:'1px 2px 9px #241e1e'}}/>
+      <ScrollToTop
+        smooth
+        style={{ borderRadius: "100%", boxShadow: "1px 2px 9px #241e1e" }}
+      />
     </div>
   );
 };
