@@ -444,8 +444,7 @@ const LandingScreen = () => {
             <div className="col-lg-6">
               <div className="copyright-right text-end">
                 <p>
-                  Designed by <a href="#">VillageCoder</a> <span>Only on</span>{" "}
-                  <a href="#">Envato Market</a>
+                  Designed by <a href="#">VillageCoder</a>
                 </p>
               </div>
             </div>
