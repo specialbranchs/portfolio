@@ -348,6 +348,36 @@ const LandingScreen = () => {
             </div>
             <div className="clr"></div>
           </div>
+
+          <div className="container">
+            <div className="head">
+              <a>
+              AeroSpace International
+              </a>
+            </div>
+
+
+            <div
+              className="gallery-item-des"
+              style={{ backgroundColor: "#f8dedd" }}
+            >
+              <h3>AeroSpace International</h3>
+              <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
+              <a
+                href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
+                target="_blank"
+              >
+                App Link
+              </a>
+            </div>
+
+            <div className="gallery-item">
+              <img src={icons.react2} alt="car" />
+              <h3>User Friendly Interface</h3>
+              <h3>Fully Responsive</h3>
+            </div>
+            <div className="clr"></div>
+          </div>
         </ScrollAnimation>
       </section>
       <section id="django">
