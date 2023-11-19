@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./index.css";
 import { icons } from "../../assets/images";
-import { bcs, donate, dorud, naat, pad, quran } from "../../utils/data";
+import { bcs, bcsbackend, donate, dorud, naat, pad, port, quran, space } from "../../utils/data";
 
 import ScrollAnimation from "../../utils/export";
 import ScrollToTop from "react-scroll-to-top";
@@ -338,9 +338,9 @@ const LandingScreen = () => {
               style={{ backgroundColor: "#f8dedd" }}
             >
               <h3>Portfolio</h3>
-              <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
+              <textarea style={{ backgroundColor: "#f8dedd" }} value={port} />
               <a
-                href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
+                href="https://jobfor2day.web.app"
                 target="_blank"
               >
                 App Link
@@ -362,9 +362,9 @@ const LandingScreen = () => {
               style={{ backgroundColor: "#f8dedd" }}
             >
               <h3>AeroSpace International</h3>
-              <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
+              <textarea style={{ backgroundColor: "#f8dedd" }} value={space} />
               <a
-                href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
+                href="https://naat-c1cb9.web.app"
                 target="_blank"
               >
                 App Link
@@ -395,7 +395,7 @@ const LandingScreen = () => {
             </div>
 
             <div className="gallery-item">
-              <img src={icons.quran1} alt="car" />
+              <img src={icons.django1} alt="car" />
               <h3>User Friendly Interface</h3>
               <h3>Realtime Push notification</h3>
             </div>
@@ -405,12 +405,12 @@ const LandingScreen = () => {
               style={{ backgroundColor: "#f8dedd" }}
             >
               <h3> Bcsfor2day Backend</h3>
-              <textarea style={{ backgroundColor: "#f8dedd" }} value={quran} />
+              <textarea style={{ backgroundColor: "#f8dedd" }} value={bcsbackend} />
               <a
-                href="https://play.google.com/store/apps/details?id=com.fislam.quran&hl=en&gl=US"
+                href="https://bcsfor2day.pythonanywhere.com/"
                 target="_blank"
               >
-                App Link
+                Web Link
               </a>
             </div>
             <div className="clr"></div>

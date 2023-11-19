@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "jobfor2day"
-  }
+    "default": "jobfor2day",
+    "build": "jobfor2day"
+  },
+  "targets": {},
+  "etags": {}
 }

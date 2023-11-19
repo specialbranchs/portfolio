@@ -234,12 +234,12 @@ ul li {
         height: 400px;
         text-align: center;
         border: 1px solid #c8c8d8;
-        margin-left: 5px;
+       
         margin-bottom: 5px;
     }
 
     .gallery-item-center {
-        margin-left: 5px;
+        /* margin-left: 5px; */
         /* margin-right: 10px; */
     }
 
@@ -366,7 +366,7 @@ ul li {
         float: left;
         padding: 10px;
         width: 318px;
-        height: 420px;
+        height: 320px;
         text-align: center;
         border: 1px solid #c8c8d8;
         margin-left: 0px;
@@ -374,7 +374,7 @@ ul li {
 
     #react .gallery-item img {
         width: 100%;
-        height: 90%;
+        height: 85%;
     }
 
     #react .gallery-item-des {
@@ -783,12 +783,12 @@ ul li {
         height: 400px;
         text-align: center;
         border: 1px solid #c8c8d8;
-        margin-left: 5px;
-        margin-bottom: 5px;
+        /* margin-left: 5px; */
+       
     }
 
     .gallery-item-center {
-        margin-left: 5px;
+        /* margin-left: 5px; */
         /* margin-right: 10px; */
     }
 
@@ -930,7 +930,7 @@ ul li {
         width: 470px;
         height: 520px;
         background-color: #f4fbf9;
-        margin-left: 2px;
+        /* margin-left: 2px; */
     }
 
     #react .gallery-item-des textarea {
@@ -1019,7 +1019,7 @@ ul li {
         width: 470px;
         height: 520px;
         background-color: #f4fbf9;
-        margin-left: 5px;
+        /* margin-left: 5px; */
     }
 
     #django .gallery-item-des textarea {

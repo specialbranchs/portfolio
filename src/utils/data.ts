@@ -124,3 +124,44 @@ Notepad, a basic text editor has several benefits:
 4. Compatibility: Notepad saves files in plain text format, which can be opened and read by virtually any text editing or word processing software. It ensures compatibility across different platforms and operating systems.
 
 5. Quick Notes and Drafts: Notepad is handy for quickly jotting down notes, creating to-do lists, or drafting short pieces of text. It's easily accessible from the Windows Start menu and doesn't require any additional setup or configuration.`
+
+
+export const port=`As a versatile developer with expertise in React, React Native, and Django, I bring a holistic approach to building robust and dynamic web and mobile applications. With a foundation in React, I specialize in crafting engaging user interfaces and seamless user experiences. Leveraging the power of React, I ensure that the front-end of applications is not only visually stunning but also highly responsive, providing users with a fluid and intuitive interaction.
+
+In the realm of mobile development, my proficiency extends to React Native, allowing me to create cross-platform applications with a single codebase. This ensures efficiency in development without compromising on the native-like performance and feel of the applications. Whether it's iOS or Android, I strive to deliver mobile solutions that meet the highest standards of quality and user satisfaction.
+
+Complementing my front-end and mobile development skills, I am well-versed in Django, a robust and scalable web framework for Python. With Django, I build powerful back-end systems that seamlessly integrate with the front-end, ensuring a cohesive and efficient application architecture. My expertise in Django extends to database design, API development, and server-side logic implementation.
+
+With a passion for creating innovative solutions and a proven track record of successful projects, I am committed to delivering high-quality, scalable, and maintainable applications that exceed client expectations in the ever-evolving landscape of web and mobile development.`
+
+
+export const space=`AerospaceMedic International stands at the forefront of innovation with its cutting-edge AI video recognition technology. Specializing in the intersection of aerospace and medical fields, our solution harnesses the power of artificial intelligence to revolutionize video analysis for enhanced situational awareness. Our system employs advanced algorithms to analyze video data, identifying critical medical events and anomalies in real-time.
+
+With a focus on the aerospace industry, our AI video recognition technology plays a pivotal role in monitoring and responding to health-related incidents on board, ensuring the well-being of passengers and crew. By seamlessly integrating into existing surveillance systems, AerospaceMedic International's solution provides an extra layer of safety, leveraging AI to detect and respond to potential medical emergencies swiftly and accurately. This groundbreaking technology exemplifies our commitment to pushing the boundaries of what is possible at the intersection of aerospace and healthcare.
+`
+
+export const bcsbackend=`"bcsfor2day" is a bcs quiz test website for taking Govt. job related preparation.
+
+Key Features:
+
+* Unlimited exam for preparing yourself
+* Daily exams to evaluate yourself among all candidates
+* Oppourtunity to analysis previous year question
+* Bookmarks to review later
+* 40000+ question to judge yourself 
+* Global rating system
+* fine graphical user interface
+
+We have covered the following topics:
+
+- Bengali
+- English
+- Bangladesh Affairs
+- International Affairs
+- Computer and Information Technology
+- Mathematical Reasoning
+- Mental Ability
+- Ethics and Good Governance
+- Geology
+- General Science
+`
